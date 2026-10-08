@@ -623,7 +623,7 @@ public class PuzzleBoard : MonoBehaviour
         {
             comboStyle.fontSize = Mathf.RoundToInt(Mathf.Min(Screen.height * 0.045f, Screen.width * 0.09f));
             float lh = comboStyle.fontSize * 1.5f;
-            GUI.Label(new Rect(0, boardTop - lh - Screen.height * 0.03f, Screen.width, lh),
+            GUI.Label(new Rect(0, boardTop - lh - Screen.height * 0.01f, Screen.width, lh),
                       $"{comboCount} COMBO", comboStyle);
         }
     }
